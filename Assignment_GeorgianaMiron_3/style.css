@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+body {
+  background-color: #dae0e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.top-side {
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.top-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  justify-content: center;
+}
+
+
+.img-bx {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-text p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 550px;
+}
+
+.profile-text a {
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.submit-icon {
+  transform: rotate(-45deg);
+  -webkit-text-stroke: 1.75px white;
+}
+
+
+
+.about {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.about-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.about h3 {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.left-side {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.left-side p {
+  margin: 10px;
+}
+
+
+.right-side {
+  margin-left: 70px;
+}
+
+.year-text {
+  min-width: 200px;
+  margin-bottom: 15px;
+}
+
+.year-text h3 {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.year-text h5 {
+  font-size: 14px;
+}
+
+.year-text h6 {
+  font-size: 12px;
+  color: rgb(133, 130, 130);
+}
+
+
+
+.about-projects {
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.about-projects h3 {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.text-project p {
+  color: rgb(99, 98, 98);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.link-project a {
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.link-project a {
+  min-width: 200px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.link-project .submit-icon {
+  padding-left: 5px;
+  transform: rotate(-45deg);
+  -webkit-text-stroke: 1.75px white;
+}
+
+
+.photo {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
